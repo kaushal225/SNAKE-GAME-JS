@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="beg menu">
+            <p class="diff ">MAIN MENU</p>
+        </div>
+        
+        <div class="start-page beg">
+            <p class="diff beg">SELECT DIFFICULTY</p>
+            <form action="" id="startf" class="beg">
+                <select name="level" id="level" class="level">
+                    <option value=4>EASY</option>
+                    <option value=7>MEDIUM</option>
+                    <option value=9>HARD</option>
+                </select>
+            <button class="btn start" id="start">START</button>
+            </form>
+        </div>
+        <div class="running control hidden"  id="control">
+            <button class="btn hidden"  id="continue">continue</button>
+            <button class="running btn hidden" id="pause">Pause</button>
+        </div>
+        <div class="running game-screen hidden">abcd</div>
+        
+    </div>
+    <div id="score" class="score hidden running" >score:0</div>
+</body>
+<script src="script.js" defer ></scriptsrc></script>
+</html>
